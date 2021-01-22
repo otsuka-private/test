@@ -24,6 +24,8 @@ html {
   width: 100vw;
   transition: 1.6s cubic-bezier(0.76, 0, 0.24, 1);
   overflow-x: hidden;
+  background-position: center;
+  background-size: cover;
 
   img {
     width: 100%;
@@ -44,14 +46,13 @@ html {
   position: fixed;
   top: 100vh;
   left: 0;
+  background-image: url("./woman.webp");
 }
+
 #cover-3 {
   z-index: 1000;
   position: fixed;
   top: 200vh;
   left: 0;
-}
-
-.upDisappear {
-  transform: translateY(-100%);
+  background-image: url("./coffee.webp");
 }
