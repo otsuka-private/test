@@ -8,8 +8,8 @@ date_default_timezone_set('Japan');
       <div class="card-content">
         <form action="./accept_form.php" method="post">
           <div class="input-field">
-            <p>郵便番号をハイフンあり７桁で入力してください。</p>
-            <input id="address-number" type="text" class="validate" name="address">
+            <p>入力してください。</p>
+            <input id="address-number" type="text" class="validate" name="user-input">
             <!-- <label for="address-number">郵便番号</label> -->
           </div>
           <button class="btn waves-effect waves-light" type="submit">GO <i class="fas fa-paper-plane"></i></button>

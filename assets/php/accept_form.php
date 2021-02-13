@@ -1,11 +1,14 @@
 <?php require './header.php'; ?>
-<?php
-$addressNumber = $_REQUEST['address'];
-$wasUserInputValid = preg_match('/\d{3}-\d{4}/', $addressNumber);
-if ($wasUserInputValid == 1) {
-  echo "user input valid";
-} else {
-  echo "user input invalid";
-}
-?>
+<div class="container">
+  <div class="card">
+    <div class="card-content">
+      <?php
+    $filePath = '../texts/hello.txt';
+    if (file_exists($filePath)) {
+        echo 'file exists!';
+    }
+    ?>
+    </div>
+  </div>
+</div>
 <?php require './footer.php'; ?>
