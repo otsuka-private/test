@@ -7,20 +7,14 @@ date_default_timezone_set('Japan');
     <div class="card">
       <div class="card-content">
         <form action="./accept_form.php" method="post" enctype="multipart/form-data">
-          <!-- <div class="input-field">
-            <p>入力してください。</p>
-            <input id="address-number" type="text" class="validate" name="user-input">
-            <label for="address-number">郵便番号</label>
-          </div> -->
-          <div class="file-field input-field">
-            <div class="btn">
-              <span>Select File</span>
-              <input type="file" name="user-input">
-            </div>
-            <div class="file-path-wrapper">
-              <input class="file-path validate" type="text">
-            </div>
-          </div>
+          <div class="input-field">
+           <input id="first" type="text" class="validate" name="product-name">
+           <label for="first">Product Name</label>
+         </div>
+          <div class="input-field">
+           <input id="second" type="text" class="validate" name="product-price">
+           <label for="second">Product Price</label>
+         </div>
           <button class="btn waves-effect waves-light" type="submit">GO <i class="fas fa-paper-plane"></i></button>
         </form>
       </div>
